@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "text": "Zavrso kurs",
+      "day": "Dans",
+      "reminder": false,
+      "id": 1
+    }
+  ]
+}
