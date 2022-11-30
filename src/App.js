@@ -14,7 +14,7 @@ function App() {
 
   useEffect(()=>{
     const getTasks=  async () => {
-     const tasksFromServer = await fetchTasks() //ovo ce nam vratiti data iz fetch tasks.Mozda ce nam jos negde trebati fetchTasks zato sam ga u app definisao
+     const tasksFromServer = await fetchTasks() //ovo ce nam vratiti data iz fetch tasks.Mozda ce mi jos negde trebati fetchTasks zato sam ga u app definisao
      setTasks(tasksFromServer) // u useEfects stavljamo funkcije iz useStates
     }
 
@@ -25,7 +25,7 @@ function App() {
   const fetchTasks= async()=>{
     const respons =await fetch('http://localhost:5000/tasks')  //ovako izvlacim niz  sa servera
     const data = await respons.json()   //ovako menjam json syntax u niz
-
+    
     return data
   }
 
@@ -105,7 +105,7 @@ const data= await res.json()
             }
           />       
          
-                  <Route path='/ab' element={<About />}  />
+                  <Route path='/' element={<About />}  />
         </Routes>
         <Footer />
       </div>

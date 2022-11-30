@@ -1,10 +1,16 @@
 {
   "tasks": [
     {
-      "text": "Zavrso kurs",
-      "day": "Dans",
-      "reminder": false,
+      "text": "React ROute",
+      "day": "19.11.2022",
+      "reminder": true,
       "id": 1
+    },
+    {
+      "text": "useEffect",
+      "day": "12.11.2022",
+      "reminder": true,
+      "id": 2
     }
   ]
 }
